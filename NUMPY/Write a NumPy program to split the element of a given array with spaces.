@@ -1,0 +1,6 @@
+import numpy as np
+x = np.array(['Python PHP Java C++'], dtype=np.str)
+print("Original Array:")
+print(x)
+split_arr=np.char.split(x)
+print(split_arr)
