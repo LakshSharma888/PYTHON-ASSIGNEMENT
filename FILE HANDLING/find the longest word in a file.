@@ -1,0 +1,4 @@
+file=open("gla.txt","r")
+filecontent=file.read()
+longest=max(filecontent.split(), key=len)
+print("\nlongest word:",longest)
