@@ -1,0 +1,7 @@
+file=open("gla.txt","r")
+filecontent=file.read()
+l=filecontent.split()
+longest=max(filecontent.split(), key=len)
+for i in l:
+    if len(i)==len(longest):
+        print(i)
