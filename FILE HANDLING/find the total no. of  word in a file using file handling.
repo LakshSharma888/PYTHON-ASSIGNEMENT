@@ -1,0 +1,4 @@
+file=open("gla.txt","r")
+filecontent=file.read()
+l=filecontent.split()
+print("\ntotal number of words",len(l))
