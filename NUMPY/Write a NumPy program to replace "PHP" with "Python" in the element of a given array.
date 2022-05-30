@@ -1,0 +1,4 @@
+import numpy as np
+r=np.array(["PHP","C","C++","Java"])
+r=np.char.replace(r,"PHP","Python")
+print(r)
