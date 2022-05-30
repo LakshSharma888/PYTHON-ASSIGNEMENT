@@ -1,0 +1,8 @@
+try:
+    x=int(input("enter a number:"))
+    y=int(input("enter a number"))
+    
+except Exception as e:
+    print("input is not integer",e.args)
+finally:
+    print("sum of the numbers:",x+y)
