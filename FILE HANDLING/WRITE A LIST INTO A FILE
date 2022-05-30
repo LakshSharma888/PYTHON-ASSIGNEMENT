@@ -1,0 +1,5 @@
+l1=['python','java','php','angular']
+'''file=open('first.py','w')
+file.writelines(l1)
+print('file crated')
+file.close(
