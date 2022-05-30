@@ -1,0 +1,5 @@
+import numpy as np
+l=list(map(str,input("enter the array element:").split()))
+x=np.array(l)
+r=np.char.zfill(x,10)
+print("numeric string of 5 digits with zeroes:",r)
