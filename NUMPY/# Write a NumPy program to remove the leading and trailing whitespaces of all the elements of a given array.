@@ -1,0 +1,5 @@
+import numpy as np
+l=list(map(str,input("enter the array element:").split()))
+arr=np.array(l)
+stripped=np.char.strip(arr)
+print(stripped)
