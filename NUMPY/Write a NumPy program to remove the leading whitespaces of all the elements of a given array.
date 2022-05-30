@@ -1,0 +1,6 @@
+import numpy as np
+x = np.array([' laksh sharma ', ' 123  ', ' abcd  ', '  C'], dtype=np.str)
+print("Original Array:")
+print(x)
+lead_stripped = np.char.lstrip(x)
+print("\nRemove the leading: ", lead_stripped)
