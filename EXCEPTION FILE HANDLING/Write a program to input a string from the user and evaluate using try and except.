@@ -1,0 +1,5 @@
+try:
+    x=str(input("enter a string"))
+    print("yeah! input is string")
+except Exception as s:
+    print("input is not a string",s.args)
