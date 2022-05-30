@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array(['laksh sharma1234', 'sachin', 'manish', 'bad boyz'], dtype=np.str)
+print("Original Array:")
+print(x)
+centered = np.char.center(x, 15, fillchar='*')
+left = np.char.ljust(x, 15, fillchar='*')
+right = np.char.rjust(x, 15, fillchar='*')
+print("\nCentered =", centered)
+print("Left =", left)
+print("Right =", right)
