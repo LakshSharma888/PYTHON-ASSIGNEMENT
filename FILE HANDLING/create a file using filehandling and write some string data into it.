@@ -1,0 +1,7 @@
+file=open("gla.txt","w")
+
+s="my name is mayank saxena"
+file=open("gla.txt","w")
+file.write(s)
+print("file created")
+file.close()
