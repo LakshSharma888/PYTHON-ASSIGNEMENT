@@ -1,0 +1,7 @@
+import numpy as np
+l1=list(map(int,input("enter the 1st array element:").split()))
+l2=list(map(int,input("enter the 2nd array element:").split()))
+arr1=np.array(l1)
+arr2=np.array(l2)
+arr3=np.concatenate((arr1,arr2))
+print("concatenate array:",arr3)
